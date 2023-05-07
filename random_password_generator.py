@@ -13,5 +13,6 @@ def random_password_generator(len: int):
     print(random_password)
 
 
-pass_length = int(input("Enter password length: "))
-random_password_generator(pass_length)
+if __name__ == "__main__":
+    pass_length = int(input("Enter password length: "))
+    random_password_generator(pass_length)
