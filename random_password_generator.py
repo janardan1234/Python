@@ -4,7 +4,7 @@ import string
 
 
 def random_password_generator(length: int):
-    char = string.printable.replace('\n', '')
+    char = string.printable
     try:
         random_password = ''.join(random.choice(char)for i in range(length))
         return random_password
